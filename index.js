@@ -99,7 +99,8 @@ exports.decorateConfig = config => {
     backgroundColor: transparent,
     borderColor: background,
     cursorColor: secondary,
-    foregroundColor: secondary,
+    foregroundColor: 
+    ,
     selectionColor: selection,
     colors: {
       black: tertiary,
@@ -149,7 +150,7 @@ exports.decorateConfig = config => {
       }
       .tabs_nav .tabs_title,
       .tabs_nav .tabs_list .tab_tab {
-        color: ${secondary};
+        color: '#F6BD20';
         border: 0;
       }
       .tab_icon {
